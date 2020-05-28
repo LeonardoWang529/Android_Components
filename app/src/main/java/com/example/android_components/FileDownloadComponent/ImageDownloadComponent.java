@@ -1,4 +1,4 @@
-package com.example.android_components;
+package com.example.android_components.FileDownloadComponent;
 
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;

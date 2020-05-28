@@ -3,7 +3,10 @@
     package="com.example.android_components">
 
     <uses-permission android:name="android.permission.SET_WALLPAPER" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
+        android:name=".FileDownloadComponent.VolleyImageLoadComponent.BitmapController"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -17,6 +20,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity android:name=".RecyclerviewComponent.RecyclerViewComponent"/>
     </application>
 
 </manifest>
