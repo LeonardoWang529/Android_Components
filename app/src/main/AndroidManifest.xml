@@ -22,6 +22,7 @@
         </activity>
 
         <activity android:name=".RecyclerviewComponent.RecyclerViewComponent"/>
+        <activity android:name=".KotlinPrectice.QuoteComponent.ui.QuoteActivity"/>
     </application>
 
 </manifest>

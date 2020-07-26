@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 
+import com.example.android_components.KotlinPrectice.QuoteComponent.ui.QuoteActivity;
 import com.example.android_components.RecyclerviewComponent.RecyclerViewComponent;
 import com.example.android_components.databinding.ActivityMainBinding;
 
@@ -23,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
         binding.action.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i = new Intent(getApplicationContext(), RecyclerViewComponent.class);
+                Intent i = new Intent(getApplicationContext(), QuoteActivity.class);
                 startActivity(i);
             }
         });

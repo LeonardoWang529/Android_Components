@@ -9,8 +9,9 @@ import java.util.List;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
+import androidx.lifecycle.ViewModel;
 
-public class RecyclerViewViewModel implements OperationListerener {
+public class RecyclerViewViewModel extends ViewModel implements OperationListerener {
 
     MutableLiveData<List<RecyclerViewItem>> mutableLiveData = new MutableLiveData();
     Context mContext;
